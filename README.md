@@ -16,3 +16,11 @@ Use this url below to get user interface:
 ```
 http://localhost:5601
 ```
+
+## Put data with logstash to elk
+```
+cat test.csv | logstash -f geostore.conf
+```
+
+# Link
+https://www.viaboxx.com/code/easily-generate-live-heatmaps-for-geolocations-with-elk/#codesyntax_1
